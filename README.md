@@ -1,16 +1,23 @@
-# weather_app
+# Flutter Weather API Integration
 
-A new Flutter project.
+A Flutter project demonstrating how to effectively integrate, consume, and manage RESTful APIs. Based on the project structure, this application fetches external weather data and manages it using a clean separation of concerns between Models and Controllers.
 
-## Getting Started
+## 🖼️ Screenshots
 
-This project is a starting point for a Flutter application.
+<p align="center">
+  <img src="lib/Screen-Pic/Capture.PNG" width="300" alt="App Screenshot">
+</p>
 
-A few resources to get you started if this is your first Flutter project:
+## 📂 Project Architecture
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+This project follows a structured architectural pattern to keep UI logic separate from business logic and data modeling:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```text
+lib/
+├── Controller/
+│   └── homeController.dart  # Handles API calls, business logic, and state management
+├── Model/
+│   └── homeModel.dart       # Data classes and JSON serialization for the API response
+├── Screen-Pic/              # UI Reference Screenshots
+│   └── Capture.PNG
+└── main.dart                # Application entry point and UI view
