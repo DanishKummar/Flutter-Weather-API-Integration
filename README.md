@@ -1,4 +1,4 @@
-# Flutter Weather API Integration
+# Flutter Dummy API Integration
 
 A Flutter project demonstrating how to effectively integrate, consume, and manage RESTful APIs. Based on the project structure, this application fetches external weather data and manages it using a clean separation of concerns between Models and Controllers.
 
